@@ -1,20 +1,52 @@
-# Global-Telephony-Data-Extraction-
-  A comprehensive desktop application for phone number analysis and intelligence gathering. This tool transforms phone numbers into actionable insights through multi-layered validation, geolocation, and threat assessment capabilities.
- 
- Features:
 
- Single Number Analysis🔍: Parse any international number to extract carrier, geographic location, timezone, and network type
+# Global Telephony Data Extraction & Intelligence Suite
 
-Security Assessment🛡️: Built-in spam scoring system with pattern detection and local threat database
+## Description
+This project is an advanced Python-based GUI application designed to extract, analyze, and visualize
+global telephony intelligence. It helps in identifying phone number details such as country, carrier,
+network type, spam risk, social media presence, and geographical estimation.
 
-Batch Processing📊: Analyze multiple numbers simultaneously with statistical insights and visualizations
+The application is suitable for cyber security analysis, telecom intelligence, and academic research.
 
-Geolocation Mapping📍: Visualize approximate locations on interactive maps with precision markers
+##  Features
+- Single phone number intelligence lookup
+- Automatic country & region detection
+- Carrier and network type identification
+- Spam and fraud risk scoring
+- Social media presence simulation
+- Number portability analysis
+- Prefix and area code analysis
+- Batch phone number analytics (CSV/TXT)
+- Data visualization with charts
+- Historical lookup tracking using SQLite
+- Interactive map-based location visualization
 
-Portability Detection🔄: Identify number portability history and original carriers
+## Technologies Used
+- Python 3
+- Tkinter (GUI)
+- phonenumbers
+- SQLite
+- Geopy
+- Folium
+- Matplotlib
+- PIL (Pillow)
 
-Social Media Intelligence📱: Simulated checks across major messaging platforms
+## File Included
+- Global-Telephony-Data-Extraction.py
 
-Historical Tracking📈: Maintain search history with SQLite database for trend analysis
+## Use Cases
+- Cyber Security & SOC Analysis
+- Telecom Fraud Detection
+- Digital Forensics
+- Threat Intelligence Research
+- Educational & Learning Purposes
 
-Technical Stack: Python, Tkinter (GUI), phonenumbers, geopy, folium, SQLite, matplotlib. Features include auto-region detection, real-time validation simulations, and export capabilities (CSV/HTML).
+## How to Run
+1. Install required libraries
+2. Run the Python file:
+   python Global-Telephony-Data-Extraction.py
+
+## Author
+VeluMurugan  
+B.Sc Cyber Security  
+India
